@@ -5,9 +5,12 @@
 }
 .hero{
     background-image: url('../img.jpg.JPG');
-    height:100vh;
+    height:120vh;
     background-position: bottom center;
     background-size: cover;
+    clip-path: polygon(0 1%, 100% 0, 100% 69%, 56% 100%, 55% 100%, 0 79%);
+
+    
 }
 .hero h1{
     color: rgb(255, 0, 0);
@@ -20,7 +23,7 @@
     letter-spacing: 1px;
 
 }
-.paragraph{
+.paragraph,.cars{
     margin-top: 60px;
     margin-bottom: 60px;
     width: 80%;
@@ -32,9 +35,11 @@
     border-style: groove;
     background-color: aquamarine;
     padding: 60px;
+    background: linear-gradient(45deg,rgb(4, 255, 0),pink);
+
     
 }
-.paragraph h1{
+.paragraph h1,.cars h1{
     text-align: center;
     color: green;
     border-width: 9px;
@@ -45,13 +50,28 @@
     border-right: none;
     padding-bottom: 20px;
     margin-bottom: 20px;
+    background: linear-gradient(pink)blue;
 
 }
 .paragraph p .imp{
     color: #ec1b44;
     width: 600px;
     font-size: 2rem;
-    display: inline-block;
-    
+   
 
+}
+
+.carimgs{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.carimgs div{
+    min-width: 300px;
+
+}
+.carimgs{
+    min-width: 100%;
 }
