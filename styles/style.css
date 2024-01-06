@@ -1,0 +1,49 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    background-image: url('../img.jpg.JPG');
+    height:100vh;
+    background-position: bottom center;
+    background-size: cover;
+}
+.hero h1{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 100px;
+    margin-top: 40px;
+    font-family: cursive;
+    font-weight: 900;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+
+}
+.paragraph{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 80%;
+    color: blue;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 15px;
+    border-color: rgb(255, 0, 0);
+    border-style: groove;
+    background-color: aquamarine;
+    padding: 60px;
+    
+}
+.paragraph h1{
+    text-align: center;
+    color: green;
+    border-width: 9px;
+    border-color: rgb(12, 242, 69);
+    border-style: groove;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+}
